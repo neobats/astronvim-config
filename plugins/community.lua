@@ -6,7 +6,7 @@ return {
 
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.colorscheme.catppuccin" },
-  { import = "astrocommunity.colorscheme.kanagawa" },
+  { import = "astrocommunity.colorscheme.kanagawa-nvim", enabled = true },
   { import = "astrocommunity.media.presence-nvim" }
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
 }
