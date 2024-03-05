@@ -23,13 +23,13 @@ return {
     },
   },
   { import = "astrocommunity.completion.copilot-lua" },
-  { -- further customize the options set by the community
-    "zbirenbaum/copilot.lua",
-    opts = {
-      panel = { enabled = false },
-      suggestion = { enabled = false },
-    },
-  },
+  -- { -- further customize the options set by the community
+  --   "zbirenbaum/copilot.lua",
+  --   opts = {
+  --     panel = { enabled = false },
+  --     suggestion = { enabled = false },
+  --   },
+  -- },
   { import = "astrocommunity.bars-and-lines.smartcolumn-nvim" },
   {
     "m4xshen/smartcolumn.nvim",
@@ -38,4 +38,6 @@ return {
       disabled_filetypes = { "help" },
     },
   },
+  { import = "astrocommunity.media.presence-nvim" },
+  { import = "astrocommunity.completion.copilot-lua-cmp" },
 }
